@@ -1,0 +1,9 @@
+            //mudar para outra janela cheia com o dgv
+            dgvClientes.Dock = DockStyle.Fill;
+            // Mudar cor do fundo
+            dgvClientes.BackgroundColor = Color.White;
+            dgvClientes.BorderStyle = BorderStyle.Fixed3D;
+            // mudar cor fundo da celula
+            dgvClientes.DefaultCellStyle.SelectionForeColor = Color.OrangeRed;
+            //mudar cor letra
+            dgvClientes.DefaultCellStyle.SelectionBackColor = Color.Blue;
